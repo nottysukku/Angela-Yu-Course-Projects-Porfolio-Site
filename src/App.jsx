@@ -215,7 +215,7 @@ export default function App() {
         <nav className="navbar ">
           <h2>Angela Yu Course Projects</h2>
           <ul className="navbar-nav">
-            <li><a className="nav-link nav-item1">CWH Course Portfolio?</a></li>
+            <li><a className="nav-link nav-item1" onClick={() => window.open('https://code-with-harry-projects.vercel.app/', '_blank')}>CWH Course Portfolio?</a></li>
             <li>
               <a className="nav-link nav-item1" onClick={() => window.open('https://fccprojectsreact-tail-sukku.netlify.app/', '_blank')}>
                 FCC Course Portfolio?
